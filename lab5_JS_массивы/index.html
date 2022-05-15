@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html> <!-- первый вариант -->
+	<head>
+		<title>Массив</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<form name="main">
+			<label id="lb1">Число элементов массива
+				<input type="text" name="dlina" id="inp1" onkeypress=keyp() onchange=dis(this.value)>
+				<input type="button" value="Создать массив" id="inp2" name="sozdmas" disabled onclick=clock()>
+			</label>
+			<label id="lb2">
+				<div>Исходный массив</div>
+				<input type="text" name="ishmas" id="inp3" readonly>
+			</label>
+			<fieldset id="fild1">
+				<legend>Определить</legend>
+				<label class="rd">
+					<input type="checkbox" name="min" onchange=prv(this)>
+					Минимальный элемент
+					<input type="text" class="chkbxtxt" readonly name="txtmin">
+				</label>
+				<label class="rd">
+					<input type="checkbox" name="max" onchange=prv(this)>
+					Максимальный элемент
+					<input type="text" class="chkbxtxt" readonly name="txtmax">
+				</label>
+				<label class="rd">
+					<input type="checkbox" name="sum" onchange=prv(this)>
+					Сумма элементов
+					<input type="text" class="chkbxtxt" readonly name="txtsum">
+				</label>
+				<label class="rd">
+					<input type="checkbox" name="otrc" onchange=prv(this)>
+					Число отрицательных
+					<input type="text" class="chkbxtxt" readonly name="txtotrc">
+				</label>
+				<label class="rd">
+					<input type="checkbox" name="neotrc" onchange=prv(this)>
+					Число не отрицательных
+					<input type="text" class="chkbxtxt" readonly name="txtneotrc">
+				</label>
+				
+			</fieldset>
+			<fieldset>
+				<legend>Сортировать</legend>
+				<label class="rd">
+					<input type="radio" name="rad">
+					По возрастанию
+				</label>
+				<label class="rd">
+					<input type="radio" name="rad">
+					По убыванию
+				</label>
+				<label class="rd">
+					<input type="radio" name="rad" checked>
+					Без сортировки
+				</label>
+			</fieldset>
+			<label id="lb3">
+			<div>Отсортированный массив</div>
+			<input type="text" id="inp4" readonly name="sortirovka">
+			</label>
+			<input type="button" value="Вычислить" id="inp5" disabled name="vbich" onclick=vbichislenie()>
+		</form>
+	</body>
+</html>

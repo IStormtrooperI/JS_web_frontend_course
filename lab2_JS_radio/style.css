@@ -1,0 +1,41 @@
+h1 {
+	color: #453987;
+	text-align:center;
+	font-size:19pt;
+}
+form {
+	border:1px solid black;
+	height:360px; width:480px;
+	position:absolute;
+	top:0; bottom:0; left:0; right:0;
+	margin:auto;
+	background-color:#f0f0f0;
+}
+fieldset {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 20px;
+	border-radius:6px;
+	border:1px solid #d6dfe5;
+}
+label {
+	display:block;
+	margin:10px 90px 10px 0;
+}
+#kl11 {
+	margin: 20px 0 20px 20px;
+}
+#kl12 {
+	width:70px;
+	margin-left:20px;
+}
+textarea {
+	resize:none;
+	margin-left:25px;
+	width:420px; height:80px;
+}
+#b {
+	position:absolute;
+	left:290px; top:185px;
+	width:100px; height:30px;
+}

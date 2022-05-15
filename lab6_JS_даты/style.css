@@ -1,0 +1,57 @@
+body {
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	background-color:pink;
+}
+form {
+	background-color:#f0f0f0;
+	position:absolute;
+	width:600px;
+	height:400px;
+	top:0; bottom:0; right:0; left:0;
+	margin:auto;
+}
+h1 {
+	text-align:center;
+	font-size:20pt;
+}
+fieldset {
+	display:inline-block;
+	width:220px;
+	margin-left:20px;
+	border-color:#a6aaa5;
+	vertical-align:top;
+}
+.radcl {
+	display:block;
+	line-height:30px;
+}
+#txt {
+	width:120px;
+	margin-left:20px;
+}
+#lbtx {
+	margin:15px 0 20px 50px;
+	display:block;
+}
+#but {
+	width:100px;
+	height:30px;
+	margin-left:85px;
+}
+.lbdat {
+	display:block;
+}
+#filddat {
+	width:100px;
+	border:0;
+}
+.dad {
+	margin:15px 0 25px 0;
+	width:220px;
+}
+#dadeda {
+	width:150px;
+}

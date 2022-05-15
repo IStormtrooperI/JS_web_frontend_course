@@ -1,0 +1,13 @@
+form {
+	border:1px solid black;
+	width:1020px;
+	height:500px;
+	position:absolute;
+	margin:auto;
+	left:0;right:0; top:0; bottom:0;
+	text-align:center;
+}
+#txtv {
+	width:400px;
+	margin-bottom:20px;
+}

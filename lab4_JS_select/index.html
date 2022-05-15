@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html> <!-- первый вариант -->
+	
+	<head>
+		<title>Валютный калькулятор</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<form name="svinka1">
+			<h1>Валютный калькулятор</h1>
+			<fieldset>
+				<label>Из
+					<select id="sel1" name="svinka5" onchange=peppa4(this.selectedIndex)>
+						<option selected disabled class="opt1">Выберите валюту</option>
+						<option class="opt1">Рубли</option>
+						<option class="opt1">Евро</option>
+						<option class="opt1">Доллар</option>
+						<option class="opt1">Фунт стерлингов</option>
+						<option class="opt1">Японская иена</option>
+						<option class="opt1">Китайский юань</option>
+						<option class="opt1">Украинская гривна</option>
+					</select>
+				</label>
+				<div class="d"></div>
+				<label>В
+					<select id="sel2" name="svinka6" onchange=peppa5(this.selectedIndex)>
+						<option selected disabled class="opt2">Выберите валюту</option>
+						<option class="opt2">Рубли</option>
+						<option class="opt2">Евро</option>
+						<option class="opt2">Доллар</option>
+						<option class="opt2">Фунт стерлингов</option>
+						<option class="opt2">Японская иена</option>
+						<option class="opt2">Китайский юань</option>
+						<option class="opt2">Украинская гривна</option>
+					</select>
+				</label>
+			</fieldset>
+			<fieldset id="fld">
+				<label>Курс
+					<input type="text" name="svinka7" onkeypress=peppa1() onchange=peppa2()>
+				</label>
+				<div class="d"></div>
+				<label>
+					<span id="sp1">Переводимая сумма</span>
+					<input type="text" name="svinka2" onkeypress=peppa1() onchange=peppa2() readonly onclick=peppa7()>
+				</label>
+			</fieldset>
+			<label id="lb">
+				<span id="sp2">
+					Результат
+				</span> 
+				<textarea name="svinka4" readonly>
+				</textarea>
+			</label>
+			<button type="button" id="but1" disabled name="svinka3" onclick=peppa3()>Посчитать</button>
+			<button type="reset" onclick=peppa8()>Очистить</button>
+		</form>
+	</body>
+</html>

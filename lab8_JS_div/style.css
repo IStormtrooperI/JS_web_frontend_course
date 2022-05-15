@@ -1,0 +1,59 @@
+body {
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+#main {
+	width:500px;
+	height:510px;
+	background-color:lightgreen;
+	border:1px solid blue;
+	position:absolute;
+}
+#kek {
+	color:#c0392b;
+	text-align:center;
+	font-size:18pt;
+}
+fieldset {
+	font-weight:bold;
+	border-radius:8px;
+	line-height:35px;
+	margin: 10px;
+}
+legend {
+	color:#34495e;
+}
+input, select {
+	border-radius:4px;
+	border:0;
+}
+
+#zag, #pod, select {
+	height:23px;
+	width:250px;
+}
+span {
+	position:relative;
+	top:5px;
+}
+#lbpod {
+	display:block;
+}
+select {
+	width:80px;
+}
+.lbrad {
+	display:block;
+}
+.but {
+	background-color:#2c3e50;
+	color:white;
+	width:100px;
+	height:30px;
+}
+#knopki {
+	margin:auto;
+	width:220px;
+}

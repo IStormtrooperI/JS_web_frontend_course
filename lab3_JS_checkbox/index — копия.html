@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> <!-- первый вариант -->
+	
+	<head>
+		<title>Меню</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<form name="doit">
+			<h1>Сделайте заказ</h1>
+			<fieldset name="fil">
+				<label class="lb"><input type="checkbox" value="369 Фаршированная форель" name="ch" onClick="funkciya(this.value, this.checked)"> Фаршированная форель</label>
+				<label class="lb"><input type="checkbox" value="349 Телятина под соусом" name="ch" onClick="funkciya(this.value, this.checked)"> Телятина под соусом</label>
+				<label class="lb"><input type="checkbox" value="189 Крем-суп из шампиньонов" name="ch" onClick="funkciya(this.value, this.checked)"> Крем-суп из шампиньонов</label>
+				<label class="lb"><input type="checkbox" value="179 Рулет со шпинатом" name="ch" onClick="funkciya(this.value, this.checked)"> Рулет со шпинатом</label>
+				<label class="lb"><input type="checkbox" value="299 Пицца Гавайская" name="ch" onClick="funkciya(this.value, this.checked)"> Пицца Гавайская</label>
+				<label class="lb"><input type="checkbox" value="149 Ванильный коктейль" name="ch" onClick="funkciya(this.value, this.checked)"> Ванильный коктейль</label>
+				<label class="lb"><input type="checkbox" value="199 Напиток Грейпфрут" name="ch" onClick="funkciya(this.value, this.checked)"> Напиток Грейпфрут</label>
+			</fieldset>
+			<img src="images/1.png" id="eda">
+			<label id="ar"><span>Счет</span><textarea placeholder="0" value="0" name="text" readonly></textarea></label>
+			<input type="button" id="but" name="zak" value="Заказать" onClick="f()">
+		</form>
+	</body>
+</html>

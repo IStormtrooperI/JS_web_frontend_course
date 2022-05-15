@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html><!--Первый вариант-->
+	<head>
+		<title>Лаба №7</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<form name="moyaformochka">
+			<h1>Регистрация Пользователя</h1>
+			<fieldset id="fild1">
+				<label>
+					Фамилия
+					<input type="text" 
+					name="familiya" 
+					placeholder="Иванов" 
+					onkeypress=DaviF(this.value)
+					onchange=changeF(this.value)>
+				</label>
+				<label>
+					Логин
+					<input 
+					type="text" 
+					name="logine" 
+					placeholder="Login" 
+					onkeypress=DaviL(this.value) 
+					onchange=changeL(this.value)>
+				</label>
+				<label>
+					Пароль
+					<input 
+					type="password" 
+					name="parol1" 
+					placeholder="Qwerty123" 
+					onchange=changeP1(this.value)>
+				</label>
+				<label>
+					Повторить пароль
+					<input 
+					type="password" 
+					name="parol2" 
+					placeholder="Qwerty123" 
+					onchange=changeP2(this.value)>
+				</label>
+			</fieldset>
+			<fieldset>
+				<label>
+					Дата рождения
+					<input type="date" name="data">
+				</label>
+				<label>
+					Телефон
+					<input 
+					type="text" 
+					name="telefon" 
+					placeholder="(912) 256-3458" 
+					onchange=changeT(this.value)>
+				</label>
+				<label>
+					Ваш ИНН
+					<input 
+					type="text" 
+					name="inn" 
+					placeholder="500100732259" 
+					onkeypress=DaviI() 
+					onchange=changeI(this.value)>
+				</label>
+				
+				<div id="dp">Пол</div>
+				<label class="rdlb" onchange=kek()>М
+					<input type="radio" name="rdpol">
+				</label>
+				<label class="rdlb" onchange=kek()>Ж
+					<input type="radio" name="rdpol">
+				</label>
+			</fieldset>
+			
+			<div id="klopiyDom">
+			
+				<input 
+				type="submit" 
+				name="sub" class="klop" 
+				id="sub1" 
+				disabled 
+				onclick=clock()>
+				
+				<input 
+				type="reset" 
+				class="klop" 
+				id="res1" 
+				value="Очистить">
+			</div>
+		</form>
+	</body>
+</html>

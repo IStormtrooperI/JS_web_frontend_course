@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><!--Первый вариант-->
+	<head>
+		<title>Нестеров Григорий 1 вариант</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<form name="forma">
+			<div>1) Тип задач, в которых производится выбор решения из множества альтернатив, называется:</div>
+			<label> Интерпритация
+				<input type="radio" name="vp1" value="1" onchange=gekk()>
+			</label>
+			<label> Диагностика
+				<input type="radio" name="vp1" value="0" onchange=gekk()>
+			</label>
+			<label> Коррекция
+				<input type="radio" name="vp1" value="0" onchange=gekk()>
+			</label>
+			<label> Классификация
+				<input type="radio" name="vp1" value="0" onchange=gekk()>
+			</label>
+			
+			
+			<div>2) Вершина байесовской сети доверия называется маргинальной, если:</div>
+			<label> значение в узле получено в результате опыта
+				<input type="checkbox" name="vp2" value="-1" onchange=gekk()>
+			</label>
+			<label> у вершины нет «родителя»
+				<input type="checkbox" name="vp2" value="+2" onchange=gekk()>
+			</label>
+			<label> вершина является узлом верхнего уровня дерева
+				<input type="checkbox" name="vp2" value="+2" onchange=gekk()>
+			</label>
+			<label> вершина является «листом»
+				<input type="checkbox" name="vp2" value="-3" onchange=gekk()>
+			</label>
+			
+			<div>3) Дано 800 документов. Определите обратную документную частоту IDF для слова, которое было найдено в 10 документах.</div>
+			<input type="text" name="vp3" onchange=haha(this.value)>
+			
+			<div>4) Задача считается слабо структурированной, если для ее решения требуется:</div>
+			<select name="vp4" onchange=gekk()>
+				<option>Разработка уникального алгоритма для каждой ситуации</option>
+				<option>Привлечение большого числа специалистов проблемной области</option>
+				<option>Оценка вычислительной мощности алгоритмов</option>
+				<option>Описание проблемной области на формальном языке</option>
+			</select>
+			
+			<div>Ваши баллы:</div>
+			<input type="text" readonly name="rez">
+			<div></div>
+			<input type="button" value="Завершить тестирование" onclick=clock()>
+		</form>
+	</body>
+</html>

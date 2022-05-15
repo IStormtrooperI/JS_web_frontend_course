@@ -1,0 +1,33 @@
+
+#tb {
+	max-height:500px;
+	overflow:auto;
+	margin:auto;
+}
+
+.tball {
+	border-collapse: collapse;
+	width:450px;
+	border:1px solid black;
+	padding: 5px 10px;
+	font-family:serif;
+}
+.vert {
+	position:relative;
+	top:4px;
+}
+.newc {
+	border:1px solid black;
+	display:block;
+	margin:auto;
+	width:420px;
+	height:30px;
+}
+img {
+	float:right;
+	width:30px;
+}
+#qq {
+	text-decoration:underline;
+	color:red;
+}

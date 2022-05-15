@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>JS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	
+	<body>
+		<form name="dacha">
+			<h1>Поездка на дачу</h1>
+			<hr>
+			<label>
+				Расстояние (км.):<input type="text" name="p1" onchange=hello(this.value)>
+			</label>
+			<label>
+				Цена бензина (руб./литр):<input type="text" name="p2" onchange=hello(this.value)>
+			</label>
+			<label>
+				Потребление (на 100 км.):<input type="text" name="p3" onchange=hello(this.value)>
+			</label>
+			<label>
+				Стоимость<input type="text" name="p4" readonly>
+			</label>
+			<input disabled type="button" value="Вычислить!" name="p5" id="but" onClick=clock()>
+			<hr>
+		</form>
+		
+	</body>
+	
+</html>

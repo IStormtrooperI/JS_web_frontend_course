@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><!--Первый вариант-->
+	<head>
+		<title>Лаба №9</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<form name="forma">
+		
+			<img name="mg1" src="images/Red.png" 
+			onmouseover=navodkart(this) onmouseout=ecler()>
+			
+			<img name="mg2" src="images/Gray.png" 
+			onmouseover=navodkart(this) onmouseout=ecler()>
+			
+			<img name="mg4" src="images/Blue.png" 
+			onmouseover=navodkart(this) onmouseout=ecler()>
+			
+			<img name="mg3" src="images/Orange.png" 
+			onmouseover=navodkart(this) onmouseout=ecler()>
+			
+			<input id="txtv" name="nazvanie" type="text" readonly>
+			
+			
+			<div>
+			
+				<input name="knop1" 
+				type="button" 
+				value="Запустить карусель!" 
+				onclick=clock1()>
+				
+				<input name="knop2" 
+				type="button" 
+				value="Остановить карусель!" 
+				onclick=clock2()
+				disabled>
+				
+				<input name="knop3"
+				type="button"
+				value="Показать!"
+				onclick=gek()>
+			</div>
+			
+		</form>
+	</body>
+</html>

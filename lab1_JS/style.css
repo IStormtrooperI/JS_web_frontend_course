@@ -1,0 +1,32 @@
+body {
+	background-color:#ffd700;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+form {
+	width:500px; height:400px;
+	position:absolute;
+	top:0; bottom:0; left:0; right:0;
+	margin:auto;
+}
+h1 {
+	text-align:center;
+	color:#800080;
+}
+input {
+	position:absolute;
+	right:50px;
+}
+#but {
+	right:139px;
+}
+label {
+	margin: 15px 0 10px 15px;
+	display:block;
+	font-weight:bold;
+}
+hr {
+	margin-top: 40px;
+}

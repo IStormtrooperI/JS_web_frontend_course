@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html><!--Первый вариант-->
+	<head>
+		<title>Лаба №8</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body onload=funtik()>
+		
+		<form id="main" name="forma">
+			<h1 id="kek">Страничка по заказу</h1>
+			
+			<fieldset>
+				<legend>
+					Параметры страницы
+				</legend>
+				
+				<label>
+					<span>Заголовок</span>
+					<input type="text" id="zag" name="zgol" onchange=prov()>
+				</label>
+				<div>
+					Картинка:
+				</div>
+				
+				<label>
+					<input value="D:\\1Рабочий стол\\что-то\\программы\\HTML I CSS I JS\\Лабораторные +JS\\lab8_JS_div\\images\\sobaken.jpg" type="checkbox" class="kartinka" onchange=prov()>
+					<span>Собака</span>
+				</label>
+				
+				<label>
+					<input value="D:\\1Рабочий стол\\что-то\\программы\\HTML I CSS I JS\\Лабораторные +JS\\lab8_JS_div\\images\\kochka.jpg" type="checkbox" class="kartinka" onchange=prov()>
+					<span>Кошка</span>
+				</label>
+				
+				<label>
+					<input value="D:\\1Рабочий стол\\что-то\\программы\\HTML I CSS I JS\\Лабораторные +JS\\lab8_JS_div\\images\\ribka.jpg" type="checkbox" class="kartinka" onchange=prov()>
+					<span>Рыбки</span>
+				</label>
+				
+				<label>
+					<input value="D:\\1Рабочий стол\\что-то\\программы\\HTML I CSS I JS\\Лабораторные +JS\\lab8_JS_div\\images\\cvetok.jpg" type="checkbox" class="kartinka" onchange=prov()>
+					<span>Цветок</span>
+				</label>
+				
+				<label id="lbpod">
+					<span>Подпись</span>
+					<input type="text" id="pod" name="npod" onchange=prov()>
+				</label>
+				
+				<label>
+					<span>Цвет фона:</span>
+					<select name="sel">
+						<option value="black" onchange=prov()>черный</option>
+						<option value="blue" onchange=prov()>синий</option>
+						<option value="lightgreen" onchange=prov()>зеленый</option>
+						<option value="white" onchange=prov()>белый</option>
+					</select>
+				</label>
+				
+				<div>
+					Цвет текста:
+				</div>
+				
+				<label class="lbrad">
+					<input type="radio" value="black" name="coltxt" onchange=prov()>
+					<span>черный</span>
+				</label>
+				
+				<label class="lbrad">
+					<input type="radio" value="blue" name="coltxt" onchange=prov()>
+					<span>синий</span>
+				</label>
+				
+				<label class="lbrad">
+					<input type="radio" value="lightgreen" name="coltxt" onchange=prov()>
+					<span>зеленый</span>
+				</label>
+				
+				<label class="lbrad">
+					<input type="radio" value="white" name="coltxt" onchange=prov()>
+					<span>белый</span>
+				</label>
+				
+				<div id="knopki">
+					<input type="reset" class="but" onclick=skip()>
+					<input type="button" value="Показать" class="but" disabled  name="pokaz" onclick=knopochkamoya()>
+				</div>
+			</fieldset>
+			
+		</form>
+		
+	</body>
+</html>				

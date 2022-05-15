@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> <!-- первый вариант -->
+	
+	<head>
+		<title>Фотография</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	
+	<body>
+		<form name="formachka_moya">
+			<h1>Печать фотографий</h1>
+			
+			<fieldset>
+				<legend>
+					Формат
+				</legend>
+				<label>
+					<input type="radio" value="8.50" name="r1" onchange=perchatka()> 9x12
+				</label>
+				<label>
+					<input type="radio" value="10.00" name="r1" onchange=perchatka()> 10x15
+				</label>
+				<label>
+					<input type="radio" value="15.50" name="r1" onchange=perchatka()> 18x24
+				</label>
+			</fieldset>
+			
+			<fieldset>
+				<legend>
+					Бумага
+				</legend>
+				<label>
+					<input type="radio" value="Матовая" name="r2" checked onchange=perchatka()> Матовая
+				</label>
+				<label>
+					<input type="radio" value="Глянцевая" name="r2" onchange=perchatka()> Глянцевая
+				</label>
+			</fieldset>
+			
+			<label id="kl11">
+				Количество <input type="text" name="kol" id="kl12" onkeypress=PressOnBukovku()>
+			</label>
+			
+			<input type="button" value="Вычислить" id="b" onClick=clock()>
+			
+			<textarea readonly name="text"></textarea>
+			
+		</form>
+	</body>
+</html>

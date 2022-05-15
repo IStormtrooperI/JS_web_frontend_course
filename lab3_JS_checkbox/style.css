@@ -1,0 +1,54 @@
+body {
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+form {
+	background-color:pink;
+	position:absolute;
+	width:500px;
+	height:420px;
+	margin:auto;
+	top:0; bottom:0; left:0; right:0;
+}
+h1 {
+	text-align:center;
+}
+label {
+	display:block;
+	margin:0 0 10px 25px;
+}
+fieldset {
+	margin:0;
+	border:0;
+	width:240px;
+	display:inline-block;
+}
+#eda {
+	vertical-align:top;
+	display:inline-block;
+	width:180px;
+	height:180px;
+}
+textarea {
+	resize:none;
+	margin-left:20px;
+	width: 201px;
+	height:40px;
+	background-color:lightgreen;
+}
+#ar {
+	margin-left:40px;
+}
+span {
+	vertical-align:top;
+}
+#but {
+	display:block;
+	margin:auto;
+	width:100px;
+	height:25px;
+	font-weight:bold;
+	background-color:lightgreen;
+}

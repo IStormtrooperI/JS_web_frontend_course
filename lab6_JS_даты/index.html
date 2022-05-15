@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Работа с датами</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="js.js"></script>
+	</head>
+	<body>
+		<form name="forumachaka">
+			<h1>Работаем с датами</h1>
+			<fieldset>
+				<legend>Определить</legend>
+				<label class="radcl">
+					<input type="radio" name="rd" onchange=babayka()>
+					Количество дней
+				</label>
+				<label class="radcl">
+					<input type="radio" name="rd" onchange=babayka()>
+					Количество выходных
+				</label>
+				<label class="radcl">
+					<input type="radio" name="rd" onchange=babayka()>
+					Количество рабочих дней
+				</label>
+				<label class="radcl">
+					<input type="radio" name="rd" onchange=babayka()>
+					Количество полных недель
+				</label>
+				<label class="radcl">
+					<input type="radio" name="rd" onchange=babayka()>
+					Количество полных месяцев
+				</label>
+			</fieldset>
+			
+			<fieldset id="filddat">
+			<label class="lbdat">
+			<span>Начало периода</span>
+				<input class="dad" type="text" name="nach" onchange=babayka() onkeypress=zing()>
+			</label>
+			<label class="lbdat">
+			<span>Конец периода</span>
+				<input id="dadeda" class="dad" name="konc" type="date" onchange=babayka()>
+			</label>
+			</fieldset>
+			
+			<label id="lbtx"> Результат
+				<input id="txt" type="text" name="rezl" readonly>
+			</label>
+			<input id="but" type="button" name="knopka" value="Вычислить" disabled onclick=clock()>
+		</form>
+	</body>
+</html>

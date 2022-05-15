@@ -1,0 +1,71 @@
+body {
+	background:url("images/svinkapeppa.jpg");
+	background-size:100%;
+}
+form {
+	opacity:90%;
+	background-color:#66cdaa;
+	position:absolute;
+	top:0; bottom:0; left:0; right:0;
+	margin:auto;
+	width:550px;
+	height:320px;
+}
+h1 {
+	text-align:center;
+}
+fieldset {
+	border:0;
+	width:180px;
+	position:relative;
+	left:30px;
+	display:inline;
+	vertical-align:top;
+}
+label {
+	display:block;
+}
+select, input {
+	position:absolute;
+	right:0;
+	border:0;
+	height:25px;
+	width:120px;
+}
+select {
+	width:150px;
+}
+input {
+	right:-20px;
+}
+#fld {
+	margin-left:30px;
+	width:200px;
+}
+.d {
+	height:30px;
+}
+#sp1 {
+	display:inline-block;
+	width:90px;
+}
+textarea {
+	border:0;
+	resize:none;
+	width:388px;
+}
+#lb {
+	margin:25px 0 0 50px;
+}
+#sp2 {
+	vertical-align:top;
+	margin-right:5px;
+}
+#but1 {
+	margin-left:122px;
+}
+button {
+	margin:15px 60px 0 0;
+	width:120px;
+	height:30px;
+}
